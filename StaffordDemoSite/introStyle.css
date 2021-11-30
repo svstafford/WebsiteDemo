@@ -1,0 +1,117 @@
+			body{
+				background-color: #767087;
+				font-family: Courier New, Courier, monospace;
+			}
+
+			.nav ul{
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+			}
+
+			.nav ul li{
+				display: inline;
+				float: left;
+			}
+			
+			.nav li a {
+			    display: block;
+			    color: white;
+			    text-align: center;
+			    padding: 14px 16px;
+			    text-decoration: none;
+			}
+
+			.nav li a:hover:not(.active) {
+			    background-color: #111;
+			}
+
+				
+			.on {
+			    background-color: #4CAF50;
+			}
+
+			.b ul li{
+				text-align: left;
+				display: list-item;
+				list-style-type: disc;
+			}
+			
+			#two {
+				color: red;
+			}
+			
+			.xmas ul li{
+				font-size: 24px;
+				color: #026818;				
+				list-style-type: lower-greek;
+			}
+
+		
+
+			
+			
+		
+			
+
+			h1, h2, h3, h4{
+				text-align: center;
+			}
+			
+			p{
+				color: #7f0606;
+				font-family: "Comic Sans Ms", cursive, sans-serif;
+			}
+
+			h3{
+				color: blue;
+			}
+
+			img {
+   				opacity: 1.0;
+    			filter: alpha(opacity=50); 
+				border-radius: 25px;
+			}
+
+			img:hover {
+				opacity: 0.2;
+				filter: alpha(opacity=100); 
+			}
+
+			h1{
+				border: 2px solid red;
+    			border-radius: 12px;
+			}
+
+			h2{
+				color: pink;
+			}
+
+	
+			table {
+			    font-family: arial, sans-serif;
+			    border-collapse: collapse;
+			    width: 100%;
+			}
+
+			td, th {
+			    border: 1px solid #dddddd;
+			    text-align: center;
+			    padding: 8px;
+			}
+
+			tr:nth-child(even) {
+			    background-color: #dddddd;
+			}
+
+			.box{
+				background-color: #767087;
+				
+				width: 300px;
+				border: 25px solid ghostwhite;
+				padding: 25px;
+				margin: 25px;
+			}
+	
